@@ -6,7 +6,67 @@
 
 
 
-@media screen and(max-width: 576px){
+@media screen and (max-width: 576px){
 
+
+
+    /*  Generics */
+
+
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .col{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+
+
+    /*  Lessons Section  */
+
+
+
+    .lessons .col {
+        width: 90%;
+    }
+
+    .lessons .col img {
+        height: 330px;
+        margin-bottom: 1rem;
+    }
+
+
+
+    /* Steps Section  */
+
+
+
+    .steps .col {
+        width: 90%;
+    }
+
+    .steps .col img {
+        height: 330px;
+        margin-bottom: 1rem;
+    }
+
+
+
+    /*   Why-us section */
+
+
+    
+    .why-us .col-left {
+        width: 90%;
+    }
+    
+    .why-us .col-right {
+        width: 90%;
+    }
     
 }
